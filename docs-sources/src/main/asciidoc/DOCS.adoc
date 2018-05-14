@@ -1,0 +1,47 @@
+= Spring Cloud Pipelines
+
+_Documentation Authors: Marcin Grzejszczak, Cora Iberkleid_
+
+Spring, Spring Boot and Spring Cloud are tools that allow developers speed up the
+time of creating new business features. It's common knowledge however that the
+ feature is only valuable if it's in production. That's why companies
+ spend a lot of time and resources on building their own deployment pipelines.
+
+This project tries to solve the following problems:
+
+- Creation of a common deployment pipeline
+- Propagation of good testing & deployment practices
+- Speed up the time required to deploy a feature to production
+
+A common way of running, configuring and deploying applications lowers support costs
+and time needed by new developers to blend in when they change projects.
+
+include::INTRO.adoc[]
+
+include::OPINIONATED.adoc[]
+
+// remove::start[CONCOURSE]
+include::CONCOURSE.adoc[]
+// remove::end[CONCOURSE]
+
+// remove::start[JENKINS]
+include::JENKINS.adoc[]
+// remove::end[JENKINS]
+
+// remove::start[K8S]
+include::K8S_SETUP.adoc[]
+// remove::end[K8S]
+
+// remove::start[CF]
+include::CF_DEMO.adoc[]
+// remove::end[CF]
+
+// remove::start[K8S]
+include::K8S_DEMO.adoc[]
+// remove::end[K8S]
+
+// remove::start[CF]
+include::CF_MIGRATION.adoc[]
+// remove::end[CF]
+
+include::TECH.adoc[]
